@@ -1,0 +1,139 @@
+/* header */
+body{
+    font-family: Rubik;
+    background-color: rgb(120, 226, 152);  
+}
+
+.cabecalho{
+    display: flex;
+    padding: 9px;
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: white;
+    justify-content: space-between;
+
+}
+
+.cabecalho .logo{
+    width: 75px;
+}
+
+.cabecalho .menu{
+    display: flex;
+    align-items: center;
+    height:100%;
+}
+
+.cabecalho nav li a{
+    font-weight: bold;
+    color:rgb(120, 226, 152);
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 50px;
+
+}
+/* 
+.botao-pesquisa{
+    text-align: center;
+    margin: 0 auto;
+  
+}
+
+.cabecalho div button{
+ 
+    border: none;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 5px 9px;  
+}
+
+
+.cabecalho div input{
+    text-align: center;
+    margin: 0 auto;
+
+} */
+
+/* main */
+div{
+    background-color: white;
+}
+main{
+    padding: 40px;
+   
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.imagem-card{
+    width: 280px;
+    border-radius: 5px 5px 0 0 ;
+
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(10, 7, 7, 0.4);
+    transition: 0.3s;
+    text-align: center;
+    padding-bottom: 20px ;
+    border-radius: 5px ;
+    cursor: pointer;
+}
+
+.card:hover {
+    box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.377);
+}
+
+.leia-mais{
+    font-size: small;
+   color:black;
+   border-radius: 2px;
+   border: 1px solid rgba(27, 31, 35, 0.808) ;
+   padding: 4px 4px;
+}
+
+/* section */
+
+.detalhes{
+    display: flex;
+    padding: 15px;
+    margin: 0 100px;
+}
+
+.titulos{
+    padding: 30px;
+    justify-content: center;
+    background-image: linear-gradient(50deg, #e4fff4d3 0%, #e1ffe7 100%);  
+}
+
+.detalhes img{
+    width: 350px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.titulos p{
+   padding: 4px;
+}
+
+
+/* footer */
+
+footer {
+    text-align: center;
+    font-weight: bold;
+    background: linear-gradient(90deg, rgb(172, 255, 142) 0%, rgba(120, 252, 175, 0.8) 50%, rgb(120, 204, 141) 100%);
+    color: rgb(65, 64, 64);
+    display: flex;
+    padding: 9px 9px;
+    justify-content: space-between;
+ 
+}
+ footer a {
+    color:rgb(65, 64, 64);
+    font-size:13px;
+ }
+ 
